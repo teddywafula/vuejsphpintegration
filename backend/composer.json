@@ -1,0 +1,29 @@
+{
+    "name": "geeks/php-proj",
+    "description": "test",
+    "require": {
+        "phpunit/phpunit": "9.5.x-dev",
+        "phpstan/phpstan": "1.8.x-dev",
+        "php-md/php-md": "dev-master",
+        "friendsofphp/php-cs-fixer": "v3.0.0",
+        "php": ">=8.1",
+        "ramsey/uuid": "5.x-dev",
+        "monolog/monolog": "3.x-dev",
+        "vlucas/phpdotenv": "5.4.x-dev",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Connection\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "teddywafula",
+            "email": "teddywafula@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
